@@ -30,5 +30,6 @@ public class Testers extends ProjectParticipant {
 
     @Override
     protected void release() {
+        System.out.println("测试人员提供测试报告");
     }
 }
