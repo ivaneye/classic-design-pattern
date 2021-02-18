@@ -5,16 +5,16 @@ package com.ivaneye.builder;
  * @author ivaneye
  * @since 2021-02-18 16:07:05
  */
-public abstract class CompilerBuilder {
+public abstract class MakeFile {
 
     protected String classPath;
     protected String javaFile;
     protected String targetFolder;
 
-    public abstract CompilerBuilder withClassDir(String classDir);
-    public abstract CompilerBuilder withTargetFolder(String targetFolder);
+    public abstract MakeFile withClassDir(String classDir);
+    public abstract MakeFile withTargetFolder(String targetFolder);
 
-    public CompilerBuilder withJavaFile(String javaFile) {
+    public MakeFile withJavaFile(String javaFile) {
         this.javaFile = javaFile;
         return this;
     }

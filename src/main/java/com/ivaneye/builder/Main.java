@@ -8,10 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         // Window下执行cmd
-        Project project = new Project(new WinCompilerBuilder());
+        Project project = new Project(new WinMakeFile());
         project.run();
         // Linux下执行shell
-        project = new Project(new LinuxCompilerBuilder());
+        project = new Project(new LinuxMakeFile());
         project.run();
     }
 }

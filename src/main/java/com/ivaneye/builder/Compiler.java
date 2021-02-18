@@ -11,10 +11,10 @@ public class Compiler {
     private String javaFile;
     private String targetFolder;
 
-    public Compiler(CompilerBuilder compilerBuilder) {
-        this.classPath = compilerBuilder.getClassPath();
-        this.javaFile = compilerBuilder.getJavaFile();
-        this.targetFolder = compilerBuilder.getTargetFolder();
+    public Compiler(MakeFile makeFile) {
+        this.classPath = makeFile.getClassPath();
+        this.javaFile = makeFile.getJavaFile();
+        this.targetFolder = makeFile.getTargetFolder();
     }
 
     public void compile() {

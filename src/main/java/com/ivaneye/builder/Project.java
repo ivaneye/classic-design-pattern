@@ -8,9 +8,9 @@ package com.ivaneye.builder;
  */
 public class Project {
 
-    private CompilerBuilder builder;
+    private MakeFile builder;
 
-    public Project(CompilerBuilder builder) {
+    public Project(MakeFile builder) {
         this.builder = builder;
     }
 
