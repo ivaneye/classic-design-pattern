@@ -7,9 +7,9 @@ package com.ivaneye.templatemethod;
 public class Main {
 
     public static void main(String[] args) {
-        Developer dev = new Developer();
-        Testers testers = new Testers();
-        dev.doProcess();
-        testers.doProcess();
+        ProjectA projectA = new ProjectA();
+        ProjectB projectB = new ProjectB();
+        projectA.build();
+        projectB.build();
     }
 }
