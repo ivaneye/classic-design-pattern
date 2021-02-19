@@ -8,6 +8,7 @@ public class PostFactoryImpl implements PostFactory {
 
     @Override
     public Post create() {
+        // 延后实现
         return new PostImpl();
     }
 }

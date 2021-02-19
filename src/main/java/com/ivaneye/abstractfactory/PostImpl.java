@@ -7,6 +7,7 @@ package com.ivaneye.abstractfactory;
 public class PostImpl extends Post {
     @Override
     public void save() {
+        // 延后实现
         System.out.println("save post");
     }
 }

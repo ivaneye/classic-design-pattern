@@ -8,7 +8,7 @@ package com.ivaneye.abstractfactory;
  */
 public abstract class Post {
 
-    // 定义的数据结构
+    // 定义数据结构
     private String title;
     private String cont;
 

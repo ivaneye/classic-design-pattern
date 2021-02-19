@@ -8,5 +8,6 @@ package com.ivaneye.abstractfactory;
  */
 public interface PostFactory {
 
+    // 定义接口
     Post create();
 }
