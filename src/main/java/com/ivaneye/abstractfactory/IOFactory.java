@@ -6,8 +6,8 @@ package com.ivaneye.abstractfactory;
  * @author ivaneye
  * @since 2021-02-19 16:26:09
  */
-public interface PostFactory {
+public interface IOFactory {
 
     // 定义接口
-    Post create();
+    IO create();
 }

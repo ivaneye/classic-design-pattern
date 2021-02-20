@@ -4,11 +4,11 @@ package com.ivaneye.abstractfactory;
  * @author ivaneye
  * @since 2021-02-19 16:30:14
  */
-public class PostFactoryImpl implements PostFactory {
+public class SelectFactory implements IOFactory {
 
     @Override
-    public Post create() {
+    public IO create() {
         // 延后实现
-        return new PostImpl();
+        return new Select();
     }
 }

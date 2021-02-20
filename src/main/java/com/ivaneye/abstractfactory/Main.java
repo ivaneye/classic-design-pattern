@@ -8,8 +8,8 @@ package com.ivaneye.abstractfactory;
 public class Main {
 
     public static void main(String[] args) {
-        PostFactory factory = new PostFactoryImpl();
-        Post post = factory.create();
-        post.save();
+        IOFactory ioFactory = new EpollFactory();
+        Ae ae = new Ae(ioFactory);
+        ae.aeMain();
     }
 }
