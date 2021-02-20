@@ -1,7 +1,6 @@
 package com.ivaneye.abstractfactory;
 
 /**
- * 假设这是客户端
  * @author ivaneye
  * @since 2021-02-19 16:19:48
  */

@@ -8,7 +8,6 @@ public class EvportFactory implements IOFactory {
 
     @Override
     public IO create() {
-        // 延后实现
         return new Evport();
     }
 }

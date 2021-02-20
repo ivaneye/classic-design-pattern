@@ -8,6 +8,5 @@ package com.ivaneye.abstractfactory;
  */
 public interface IOFactory {
 
-    // 定义接口
     IO create();
 }
