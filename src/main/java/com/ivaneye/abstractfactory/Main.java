@@ -8,11 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         // 根据环境设置工厂
-        IOFactory ioFactory = new EpollFactory();
+        SystemFactory systemFactory = new Linux26Factory();
 //        IOFactory ioFactory = new SelectFactory();
 //        IOFactory ioFactory = new KqueueFactory();
 //        IOFactory ioFactory = new EvportFactory();
-        Ae ae = new Ae(ioFactory);
+        Ae ae = new Ae(systemFactory);
         ae.aeMain();
     }
 }

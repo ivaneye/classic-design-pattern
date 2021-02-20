@@ -6,7 +6,9 @@ package com.ivaneye.abstractfactory;
  * @author ivaneye
  * @since 2021-02-19 16:26:09
  */
-public interface IOFactory {
+public interface SystemFactory {
 
-    IO create();
+    IO createIO();
+
+    RAM createRAM();
 }

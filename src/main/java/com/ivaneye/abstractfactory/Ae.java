@@ -6,14 +6,17 @@ package com.ivaneye.abstractfactory;
  */
 public class Ae {
 
-    private IOFactory ioFactory;
+    private SystemFactory systemFactory;
 
-    public Ae(IOFactory ioFactory) {
-        this.ioFactory = ioFactory;
+    public Ae(SystemFactory systemFactory) {
+        this.systemFactory = systemFactory;
     }
 
     public void aeMain() {
-        IO io = ioFactory.create();
+        IO io = systemFactory.createIO();
+        RAM ram = systemFactory.createRAM();
         System.out.println("loop by " + io.aeApiPoll());
+        System.out.println("read from " + ram.read());
+        System.out.println("==========================");
     }
 }
