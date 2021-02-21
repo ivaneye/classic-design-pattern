@@ -6,11 +6,7 @@ package com.ivaneye.factorymethod;
  */
 public class Ae {
 
-    private IOFactory ioFactory;
-
-    public Ae(IOFactory ioFactory) {
-        this.ioFactory = ioFactory;
-    }
+    private IOFactory ioFactory = new IOFactoryImpl();
 
     public void aeMain() {
         IO io = ioFactory.create();
