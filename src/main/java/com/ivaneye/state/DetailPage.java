@@ -8,7 +8,7 @@ package com.ivaneye.state;
  */
 public class DetailPage implements Page {
     @Override
-    public String show() {
+    public String render() {
         return "Detail";
     }
 

@@ -18,7 +18,7 @@ public class REST {
 
     // 展示页面，模拟页面渲染
     public void show() {
-        System.out.println(page.show());
+        System.out.println(page.render());
     }
 
     // 每次点击，改变REST状态。模拟的是页面的超链接点击

@@ -9,9 +9,9 @@ package com.ivaneye.state;
 public interface Page {
 
     /**
-     * 模拟页面展示
+     * 模拟页面渲染
      */
-    String show();
+    String render();
 
     /**
      * 模拟页面点击
