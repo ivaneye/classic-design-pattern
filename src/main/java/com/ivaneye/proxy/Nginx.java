@@ -17,7 +17,7 @@ public class Nginx implements Server {
 
     @Override
     public String visit() {
-        Server server = getServer();
+        Server server = chooseServer();
         return server.visit();
     }
 
@@ -26,7 +26,7 @@ public class Nginx implements Server {
      *
      * @return
      */
-    private Server getServer() {
+    private Server chooseServer() {
         if (idx >= serverList.size()) {
             idx = 0;
         }
