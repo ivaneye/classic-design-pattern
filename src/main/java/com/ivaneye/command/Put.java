@@ -1,7 +1,7 @@
 package com.ivaneye.command;
 
 /**
- * Put请求
+ * Put请求（Command实现）
  *
  * @author ivaneye
  * @since 2021-02-22 16:31:37

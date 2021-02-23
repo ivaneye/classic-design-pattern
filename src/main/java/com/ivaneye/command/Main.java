@@ -1,7 +1,7 @@
 package com.ivaneye.command;
 
 /**
- * 模拟浏览器
+ * 模拟浏览操作
  *
  * @author ivaneye
  * @since 2021-02-22 16:26:09

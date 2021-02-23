@@ -1,6 +1,7 @@
 package com.ivaneye.command;
 
 /**
+ * 浏览器（Invoker）
  * @author ivaneye
  * @since 2021-02-22 16:27:55
  */

@@ -1,6 +1,8 @@
 package com.ivaneye.command;
 
 /**
+ * 模拟注释对象
+ *
  * @author ivaneye
  * @since 2021-02-22 16:40:26
  */
